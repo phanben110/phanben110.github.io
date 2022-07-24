@@ -20,7 +20,9 @@ Motor speed control using encoders. Encoder are connected to the hardware interr
 
 ## Vectoring
 X and Y vector (or Magnitude, Theta) are transformed to the three motor RPMs.
+
 ![](robot/omni_transformation_2.jpg)
+
 ## High Level Control
 ### 1. Control via ESP8266 blynk app: 
 This functionality is added for the control of robot via ROS running your smart phone.
