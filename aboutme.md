@@ -1,19 +1,18 @@
+### Hi, I'm Ben 👋
+
+<!--
+**phanben110/phanben110** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+-->
+I am an AI engineer. I grew up in a dreamy city and located in central Vietnam on the banks of Huong River.
+- 🎓 I'm currently a senior year student at University of Science and Technology - The University of Danang, majoring in Control Engineering and Automation.
+- 🔭 I am also studying and working on machine learning, deep learning.
+- 🤖 I'm a big fan of Robots! I have participated in many robot competitions such as MiniRobocon 2019, Robodnic 2019, ABU Robocon 2020. I really want to create a robot  with artificial intelligence close to human, that's why I decided to focus my research and work in the field of artificial intelligence.
+
+It is best to contact me by [email](phanben110@gmail.com). I am always open to interesting conversations and collaborations.
+
 ---
-layout: page
-title: About me
-subtitle: Be strong, be yourself!
----
+More contact:
+- [Youtube](https://www.youtube.com/channel/UCgXH-yNQBPUkYiKzyBdBudg)
+- [Facebook](https://www.facebook.com/benphan110)
+- [LinkedIn](https://www.linkedin.com/in/benphan110)
 
-My name is Manh Pham. A senior student at Hanoi University of Science and Technology with a strong interest in Artificial Intelligent and IoT. I am an ambitious, hard-working, and aggressive learner who believes the core value of any business is to improve people's lives.
-
-- 👋 I'm always eager to learn new things day by day
-- 👯 I'm really interested in applying AI as well as IoT to address real world problems
-- 🔭 I’m looking for 2022 job opportunities in Machine Learning Engineer 🙋
-- ⚡ Fun fact: I'm really into soccer and my favorite team is MU, still 🙂
-
-
-I am happy to connect with recruiters, friends, community program leads, and anyone who shares some of my interests!
-
-### My story
-
-Studying in the field of Intelligent Electronics Systems and the Internet of Things at HUST is what I have chosen as my strong background in Physics. However, since I had a chance to approach Machine Learning, my mind was blown away. I was obsessed with how a machine can learn things and make predictions even more accurately than a human in many tasks. Also, I realized the enormous potential of this technology and how much it can contribute to many other aspects of life :smile: To my mind, I figured out my lifetime goal is absolutely becoming an expert about AIoT and being able to apply Machine Learning to address real-world problems. Therefore, I immediately dived into the field and devoted myself to absorb related knowledge ⚡
