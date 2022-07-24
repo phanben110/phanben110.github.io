@@ -2,7 +2,7 @@
 layout: post
 title: Robot
 subtitle: Robot Omni 3 Wheels RTOS 
-cover-img: /assets/img/robot/cover.jpg
+cover-img: /assets/robot/cover.jpg
 thumbnail-img: /assets/robot/thumb.png
 share-img: /assets/img/path.jpg
 tags: [Robot, Omni 3 wheels, RTOS]
