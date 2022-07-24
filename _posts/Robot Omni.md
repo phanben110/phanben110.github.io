@@ -30,9 +30,6 @@ This functionality is added for the control of robot via ROS running your smart 
 ## Video demo
 [Video Demo](https://www.youtube.com/watch?v=WiIC_UjOM_0) 
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=WiIC_UjOM_0)
-
-
 Contact us if you have any problem
 
 ## Authors
