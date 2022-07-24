@@ -2,9 +2,9 @@
 layout: post
 title: Robot
 subtitle: Robot Omni 3 Wheels RTOS 
-cover-img: /assets/robot/cover.jpg
-thumbnail-img: /assets/robot/thumb.png
-share-img: /assets/img/path.jpg
+cover-img: /assets/robot/cover.jpg # Anh hien trong website 
+thumbnail-img: /assets/robot/thumb.png # anh nho hien truoc website 
+share-img: /assets/robot/screenshot_1655914351.png # hinh anh chia se
 tags: [Robot, Omni 3 wheels, RTOS]
 ---
 
