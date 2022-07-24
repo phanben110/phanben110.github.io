@@ -49,6 +49,5 @@ Contributors names and contact info
 * [Tuning a PID Controller with Genetic Algorithms](https://www.youtube.com/watch?v=S5C_z1nVaSg&t=2s)
 * [PID Speed and PID position](http://arduino.vn/result/5401-pid-speed-position-control)
 
-## Acknowledgments
-
+## Resource
 * [Source code project](https://github.com/phanben110/Robot-Omni-3-wheels-RTOS)
