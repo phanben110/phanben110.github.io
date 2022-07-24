@@ -13,7 +13,7 @@
 title: My Blog
 
 # Your name to show in the footer
-author: Max Ph
+author: Ben Phan
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -32,7 +32,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/Manh.jpg"
+avatar: "/assets/img/ben.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -49,19 +49,19 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "maxph22112000@gmail.com"
+  email: "phanben110@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: "profile.php?id=100010363235671"
-  github: "manhph2211" 
+  facebook: "https://www.facebook.com/benphan110"
+  github: "phanben110" 
 #  medium: yourname
 #  reddit: yourname
-  linkedin: "manhph2211"
+  linkedin: "https://www.linkedin.com/in/benphan110/"
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
-  telephone: +84981633700
+  telephone: +84399742099
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
