@@ -1,5 +1,9 @@
+---
+layout: page
+title: About me
+subtitle: Never give up!
+---
 ### Hi, I'm Ben 👋
-
 <!--
 **phanben110/phanben110** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
