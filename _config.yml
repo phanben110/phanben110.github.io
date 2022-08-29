@@ -22,6 +22,7 @@ author: Ben Phan
 navbar-links:
   About Me: "aboutme"
   Publications: "Publications"
+  Resume: "/resume/phanben.pdf"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -34,6 +35,7 @@ navbar-links:
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/assets/img/ben.jpg"
+description: AI Engineer
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -73,6 +75,7 @@ social-network-links:
   google-scholar: "/citations?user=r3tfrQcAAAAJ&hl=en"
 #  kaggle: yourname
 #  hackerrank: yourname
+  youtube: "https://www.youtube.com/channel/UCgXH-yNQBPUkYiKzyBdBudg"
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
@@ -89,6 +92,7 @@ share-links-active:
   linkedin: true
   google-scholar: True 
   github: True
+  youtube: True
   vk: false
 
 # How to display the link to your website in the footer
