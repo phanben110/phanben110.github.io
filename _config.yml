@@ -21,6 +21,7 @@ author: Ben Phan
 
 navbar-links:
   About Me: "aboutme"
+  Pulications: "pulications"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -69,7 +70,7 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
-#  google-scholar: your google scholar
+  google-scholar: "https://scholar.google.com/citations?user=r3tfrQcAAAAJ&hl=en"
 #  discord: invite/invite_code or users/userid 
 #  kaggle: yourname
 #  hackerrank: yourname
