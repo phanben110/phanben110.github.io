@@ -21,7 +21,7 @@ author: Ben Phan
 
 navbar-links:
   About Me: "aboutme"
-  Publications: "Publications"
+  publications: "publications"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
