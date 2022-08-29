@@ -21,7 +21,7 @@ author: Ben Phan
 
 navbar-links:
   About Me: "aboutme"
-  Pulications: "pulications"
+  Pulications: "publications"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -51,7 +51,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "phanben110@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+# rss: true  # remove this line if you don't want to show an RSS link at the bottom
   facebook: "https://www.facebook.com/benphan110"
   github: "phanben110" 
 #  medium: yourname
@@ -70,8 +70,7 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
-  google-scholar: "https://scholar.google.com/citations?user=r3tfrQcAAAAJ&hl=en"
-#  discord: invite/invite_code or users/userid 
+  google-scholar: "/citations?user=r3tfrQcAAAAJ&hl=en"
 #  kaggle: yourname
 #  hackerrank: yourname
 
@@ -88,6 +87,8 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
+  google-scholar: True 
+  github: True
   vk: false
 
 # How to display the link to your website in the footer
