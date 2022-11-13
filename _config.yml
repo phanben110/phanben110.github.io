@@ -75,7 +75,7 @@ social-network-links:
   google-scholar: "/citations?user=r3tfrQcAAAAJ&hl=en"
 #  kaggle: yourname
 #  hackerrank: yourname
-  youtube: "https://www.youtube.com/channel/UCgXH-yNQBPUkYiKzyBdBudg"
+  youtube: "/channel/UCgXH-yNQBPUkYiKzyBdBudg"
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
