@@ -20,9 +20,9 @@ Your work will enable healthcare providers to better identify the origins of blo
 
 ## ViT model
 * Split image into patchs
-![](https://github.com/phanben110/Vin_CVFinalProject/blob/master/report/Patchs.png)
+![](/assets/vit/Patchs.png)
 * Pipeline ViT model 
-![](https://github.com/phanben110/Vin_CVFinalProject/blob/master/report/Vit.png) 
+![](/assets/vit/vitpipeline.png) 
 
 [Video Demo](https://www.youtube.com/watch?v=_jtyoFoEVEk) 
 
