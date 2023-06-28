@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: BM Blog
+title: QUANG PORTFOLIO
 
 # Your name to show in the footer
-author: Ben Phan
+author: QUANG DINH
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -52,19 +52,19 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "phanben110@gmail.com"
+  email: "vanquang17th@gmail.com"
 # rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: "https://www.facebook.com/benphan110"
-  github: "phanben110" 
+  facebook: "https://www.facebook.com/vanquang17th/"
+  github: "quang17th" 
 #  medium: yourname
 #  reddit: yourname
-  linkedin: "https://www.linkedin.com/in/benphan110/"
+  linkedin: "https://www.linkedin.com/in/vanquang17th/"
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
-  telephone: +84399742099
+  telephone: +84934771529
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -75,7 +75,7 @@ social-network-links:
   google-scholar: "/citations?user=r3tfrQcAAAAJ&hl=en"
 #  kaggle: yourname
 #  hackerrank: yourname
-  youtube: "/channel/UCgXH-yNQBPUkYiKzyBdBudg"
+  youtube: "https://www.youtube.com/channel/UCHiLRDTAEkRV6hOHRZVztLQ"
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
