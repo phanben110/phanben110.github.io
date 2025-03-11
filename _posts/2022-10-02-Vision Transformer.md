@@ -83,7 +83,7 @@ $$
 \text{MultiHead}(Q,K,V) = [\text{head}_1; ...; \text{head}_h]W^O
 $$
 
-Each head computes attention separately:
+Each head computes attention separately :
 
 $$
 \text{head}_i = \text{Attention}(QW_i^Q, KW_i^K, VW_i^V)
