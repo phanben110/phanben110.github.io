@@ -331,10 +331,59 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
+/* .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+} */
+
+
+.profile-card {
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e; /* nền tối */
+  border-radius: 16px;
+  width: fit-content;
+  margin: auto;
 }
+
+.avatar-frame {
+  display: inline-block;
+  padding: 8px;
+  background-color: #ffffff; /* viền trắng nổi bật */
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.avatar-img {
+  width: 150px;     /* ngang dài hơn */
+  height: 150px;    /* chiều cao bằng chiều ngang để tạo thành hình vuông */
+  border-radius: 100%;  /* bo tròn thành hình tròn */
+  object-fit: cover;
+  display: block;
+}
+
+
+
+.name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.role {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+
 
 .info-content .name {
   color: var(--white-2);
