@@ -1862,7 +1862,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .contact-info :is(.contact-link, time, address) {
-    --fs-7: 12.3px;
+    --fs-7: 12px;
     font-weight: var(--fw-300);
   }
 
