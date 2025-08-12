@@ -8,6 +8,22 @@
   <title>Ben Phan</title>
 
   <!--
+    - emailjs
+  -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  <!--
+    - jQuery link
+  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!--
+    - toastr link
+  -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+  <!--
     - favicon
   -->
   <link rel="shortcut icon" href="assets/ben_images/logo_bp.png" type="image/x-icon">
@@ -45,15 +61,9 @@
           <img src="assets/ben_images/Ben_V5.png" alt="Ben Phan" width="80">
         </figure>
 
-        <!-- <figure class="avatar-box">
-          <img src="assets/ben_images/Ben_V4.jpg" alt="Ben Phan" class="avatar-img">
-        </figure> -->
-
-
         <div class="info-content">
           <h1 class="name" title="Ben Phan">Ben Phan</h1>
 
-          <!-- <p class="title">AI Researcher</p> -->
           <p class="title">M.S. in Computer Science</p>
         </div>
 
@@ -62,6 +72,7 @@
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
+
 
       </div>
 
@@ -200,9 +211,9 @@
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
 
-          <li class="navbar-item">
+          <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
+          </li> -->
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -269,6 +280,9 @@
         </section>
 
 
+        <!--
+          - service
+        -->
 
      <section class="service">
         <h3 class="h3 service-title">What I'm Doing</h3>
@@ -318,67 +332,91 @@
                 </div>
             </li>
         </ul>
-    </section> 
+      </section> 
 
 
+        <!--
+          - testimonials
+        -->
 
+        <section class="testimonials">
 
-        <!-- <section class="clients">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
 
-          <h3 class="h3 clients-title">Institutions & Labs</h3>
+          <ul class="testimonials-list has-scrollbar">
 
-          <ul class="clients-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-            <li class="clients-item">
-              <a href="https://web.ncku.edu.tw/index.php">
-                <img src="assets/ben_images/NCKU_Logo.png" alt="client logo">
-              </a>
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/ben_images/chiang.png" alt="Prof. Jung-Hsien Chiang" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Prof. Jung-Hsien Chiang</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                  Ben is an exceptional master's student with strong technical expertise, outstanding problem-solving skills, and excellent teamwork. He has demonstrated remarkable proficiency in big data analysis, research project management, and extensive AI knowledge, consistently delivering high-quality results with professionalism and dedication.
+                  </p>
+                </div>
+
+              </div>
             </li>
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-            <li class="clients-item">
-              <a href="https://iir.csie.ncku.edu.tw/">
-                <img src="assets/ben_images/IIR_Lab.png" alt="client logo">
-              </a>
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/ben_images/thanh.png" alt="Ph.D NGO Dinh-Thanh" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ph.D NGO Dinh-Thanh</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                  Ben is a talented student I mentored for five years during his undergraduate studies. He demonstrates exceptional responsibility and strong leadership skills, serving as Vice President of the BK-Maker Scientific Research Club. His passion for robotics, particularly Robocon competitions, combined with his technical expertise makes him an outstanding candidate.
+                  </p>
+                </div>
+
+              </div>
             </li>
-
-            <li class="clients-item">
-              <a href="https://dut.udn.vn/">
-                <img src="assets/ben_images/dut.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.facebook.com/bkmaker0404">
-                <img src="assets/ben_images/bk-maker.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://vinbigdata.com">
-                <img src="assets/ben_images/Vinbigdata.webp" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.phison.com/en/">
-                <img src="assets/ben_images/phison.png" alt="client logo">
-              </a>
-            </li>
-
-
-
-            <li class="clients-item">
-              <a href="https://hub.ftech.ai/en/">
-                <img src="assets/ben_images/FTech.webp" alt="client logo">
-              </a>
-            </li>
-
 
           </ul>
 
-        </section> -->
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="assets/ben_images/chiang.jpg" alt="Jung-Hsien Chiang" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+
+
+          </section>
+
+        </div>
+
 
       </article>
+
 
 
 
@@ -390,9 +428,78 @@
       <article class="resume" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <h2 class="h2 article-title">📝 Resume</h2>
         </header>
+        <section class="timeline">
 
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4">Intelligent Information Retrieval Lab (IIR Lab), CSIE, NCKU</h4>
+              <h5 class="h5 timeline-item-title">AI Researcher</h5>
+
+              <span>Sep 2023 – Aug 2025</span>
+
+              <p class="timeline-text">
+                • Developing and refining RAG techniques for enhanced information retrieval. <br>
+                • Investigating Graph-based RAG models to improve the accuracy and efficiency of retrieval. <br>
+                • Exploring integration of Large Language Models with retrieval systems to enhance the quality of generated information. <br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4">Vingroup Big Data Institute</h4>
+              <h5 class="h5 timeline-item-title">AI Engineer</h5>
+
+              <span>Jun 2022 – Sep 2023</span>
+
+              <p class="timeline-text">
+                • Completed courses in Linear Algebra, Probability \& Statistics, Machine Learning, Deep Learning, Generative Model, Computer Vision, Natural Language Processing, and AI Ethics. <br>
+                • Developed Face ID, Car Parking, and Uncovered Truck detection for VinFast factories and VinHome, processing data from 2,000+ cameras using GStreamer, DeepStream, TensorRT, and Triton. <br>
+                • Optimized and deployed computer vision models (QAT, PQT) for VinFast Smart Factory, improving AI performance in industrial automation. <br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4">FTECH CO., LTD</h4>
+              <h5 class="h5 timeline-item-title">AI Engineer Internship</h5>
+
+              <span>May 2021 – Jun 2022</span>
+
+              <p class="timeline-text">
+                • Gained foundational knowledge of AI, deep learning, and computer vision techniques. <br>
+                • Acquired hands-on experience with cloud platforms such as Azure and AWS for deploying AI models and services. <br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4">Software Danang Center</h4>
+              <h5 class="h5 timeline-item-title">Embedded Software Internship</h5>
+
+              <span>May 2019 – Jun 2020</span>
+
+              <p class="timeline-text">
+                • Developed IoT-based tracking system for real-time bus movement monitoring in Danang. <br>
+                • Gained proficiency in C, C++, and Linux environments through embedded software projects. <br>
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
         <section class="timeline">
 
           <div class="title-wrapper">
@@ -407,41 +514,35 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+              <h4 class="h4 ">National Cheng Kung University (NCKU)</h4>
 
-              <span>2007 — 2008</span>
+              <span>Sep 2023 – Aug 2025</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Master of Science in Computer Science
+              </p>
+              <p class="timeline-text">
+                • Vice President of the Vietnamese Student Association at NCKU (2024 - 2025). <br>
+                • NCKU Distinguished International Student Scholarship for Master’s program (2023 - 2025). <br>
+                • Best System at SemEval-2025 Task 9, ACL Workshop, Vienna, Austria.  <br>
+                • The 18th TSC Thesis Award (2025): AI Application Competition. <br>
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+              <h4 class="h4 ">Danang University of Science & Technology</h4>
 
-              <span>2006 — 2007</span>
+              <span>Sep 2018 – Mar 2023</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                Bachelor of Engineering in Control Engineering and Automation
               </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
               <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                • Class President (2019 - 2023) <br>
+                • Academic Scholar of Class 2023 <br>
+                • Vice President of the BK Maker Scientific Research Club (2021 - 2022) <br>
               </p>
 
             </li>
@@ -450,65 +551,7 @@
 
         </section>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
+        <!-- <section class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
 
@@ -517,12 +560,12 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
+                <h5 class="h5">Python</h5>
+                <data value="80">90%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
+                <div class="skill-progress-fill" style="width: 90%;"></div>
               </div>
 
             </li>
@@ -568,7 +611,7 @@
 
           </ul>
 
-        </section>
+        </section> -->
 
       </article>
 
@@ -583,7 +626,7 @@
       <article class="portfolio" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">📂 Portfolio</h2>
         </header>
 
         <section class="projects">
@@ -595,15 +638,19 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
               <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Pixel Art</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Cool Tech</button>
             </li>
 
           </ul>
@@ -627,17 +674,20 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
                 <button data-select-item>Web development</button>
               </li>
 
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-filter-btn>Pixel Art</button>
+              </li>
+
+              <li class="select-item">
+                <button data-filter-btn>Cool Tech</button>
+              </li>
             </ul>
 
           </div>
@@ -645,163 +695,91 @@
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://github.com/JZYNX/Elevate." target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/elevate.png" alt="elevate" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">Elevate.</h3>
 
                 <p class="project-category">Web design</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/JZYNX/ML-assignment-1" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/wine-classifier.png" alt="orizon" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Knn model for wine classification</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Machine Learning</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/JZYNX/gesture-recognition" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/gesture.png" alt="orizon" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">Gesture Recognition</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/JZYNX/personal-portfolio" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/website.png" alt="portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio Website</h3>
 
                 <p class="project-category">Web design</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="cool tech">
+              <a href="https://github.com/JZYNX/MealBot" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./assets/images/mealbot.png" alt="portfolio" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">MetaSpark</h3>
+                <h3 class="project-title">MealBot</h3>
 
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
+                <p class="project-category">Cool Tech</p>
 
               </a>
             </li>
@@ -1015,14 +993,14 @@
       <article class="contact" data-page="contact">
 
         <header>
-          <h2 class="h2 article-title">Contact</h2>
+          <h2 class="h2 article-title">✌️ Contact</h2>
         </header>
 
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d402589.824632653!2d144.7722783977642!3d-37.971691291608515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC!5e0!3m2!1sen!2sau!4v1673263062473!5m2!1sen!2sau"
+            width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
 
@@ -1030,12 +1008,12 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action = "javascript:void(0);" class="form" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="text" name="from_name" class="form-input" placeholder="Full name" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input type="email" name="from_email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
@@ -1070,7 +1048,6 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 
 </html>
